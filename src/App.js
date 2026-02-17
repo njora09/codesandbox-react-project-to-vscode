@@ -8,9 +8,13 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
-      <Search />
-      <Weatherdata />
-      <Footer />
+      <div className="noras-meteo-app">
+        <Search />
+        <main>
+          <Weatherdata />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }
